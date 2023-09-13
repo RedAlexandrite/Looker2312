@@ -40,7 +40,7 @@ view: order_items {
     sql: SUM(${sale_price}) ;;
   }
 
-  measure: sum_test_2 {
+  measure: sum_test_4 {
     type: number
     sql: SUM(${sale_price}) ;;
   }
