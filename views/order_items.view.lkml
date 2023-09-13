@@ -22,6 +22,7 @@ view: order_items {
     sql: ${TABLE}.phone ;;
   }
   dimension: phones {
+    label: "Phone"
     type: string
     sql: ${TABLE}.phones ;;
   }

@@ -16,6 +16,7 @@ view: user_data {
     sql: ${TABLE}.total_num_orders ;;
   }
   dimension: user_id {
+    label: "ID"
     type: number
     # hidden: yes
     sql: ${TABLE}.user_id ;;
